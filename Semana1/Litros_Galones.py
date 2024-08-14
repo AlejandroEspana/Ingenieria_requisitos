@@ -8,5 +8,8 @@ class Galon:
         return i
 
     def pago(self):
-        i = self.Galones()*self.precio
-        print("el precio de los galones producidos es de: {i})
+        b = round(self.Galones()*self.precio)
+        print(f"el precio de los galones producidos es de: {b}")
+
+empresa = Galon()
+pago = empresa.pago()

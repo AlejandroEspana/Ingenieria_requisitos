@@ -6,3 +6,6 @@ class Salario:
     def salarioSemanal(self):
         salario = self.horasSemanales * self.pagoHora
         print(f"su salario semanal correspondiente es de: {salario}")
+
+empleado = Salario()
+salarioSemanal = empleado.salarioSemanal()

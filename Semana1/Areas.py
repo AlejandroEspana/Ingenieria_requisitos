@@ -14,3 +14,7 @@ class AreaFigura:
 
     def AreaTotal(self):
         print(self.AreaRectangulo()+self.AreaTriangulo())
+
+Area = AreaFigura()
+total = Area.AreaTotal()
+
