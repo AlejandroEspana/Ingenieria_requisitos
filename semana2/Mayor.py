@@ -20,6 +20,8 @@ class NumeroMayor:
     def Mayor(self):
         if self.A > self.B:
             print("El primer número es mayor")
+        elif self.A == self.B:
+            print("los numeros son iguales")
         else:
             print("El segundo número es mayor")
 
